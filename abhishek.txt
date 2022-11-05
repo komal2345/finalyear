@@ -1,0 +1,61 @@
+<html>
+<head>
+<titel>arithmatic operation</title>
+<script type="text/java script">
+var n1,n2,r,
+function add()
+{
+n1=document.myfrom n1.value;
+n2=document.myfrom n2.value;
+n1=parse float(n1);
+n2=parse float(n2);
+r=n1+n2;
+document.myfrom.result.value=r",
+}
+function sub()
+{
+n1=document.myform n1.value;
+n2=document.myform n2.value;
+n1=parse float(n1);
+n2=parse float(n2);
+r=n1-n2;
+document.myform.result.value=r",
+}
+function mul()
+{
+n1=document.myform n1.value;
+n2=document.myform n2.value;
+n1=parse float(n1);
+n2=parse float(n2);
+r=n1*n2;
+document.myform.result.value=r",
+}4
+function divide()
+{
+n1=document.myform n1.value;
+n2=document.myform n2.value;
+n1=parse float(n1);
+n2=parse float(n2);
+r=n1/n2;
+document.myform.result.value=r",
+}
+</script><</head>
+<body>
+<form name="myform">
+<h1 align="center">arithmatic operation</h1>
+<hr color="red">
+<center><u> enter a number in each text box</u><br><br>
+number1;<input type="text"name="n1" value=""><br><br>
+number2;<input type="button"value="add" onclick="add()">
+<input type=button"value="subtract" on click="sub()">
+<input type button"value="multply" on click="mul()">
+<input type=button"value="divide"  on click="divide()"><br><br>
+<font color="red">result is;
+<input type="text"name="result"
+value="></center></font>
+</form>
+</body>
+</html>
+
+
+https://github.com/komal2345/finalyear.git
